@@ -1,0 +1,114 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap');
+/* You can override the default Infima variables here. */
+html {
+  font-family: 'Comfortaa', cursive;
+}
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-code-font-size: 95%;
+  --ifm-button-border-color: var(--ifm-color-primary);
+
+  /* search input */
+  --ifm-navbar-search-input-background-color: var(--bright-black);
+  --ifm-navbar-search-input-color: var(--primary-fg);
+  --ifm-navbar-search-input-placeholder-color: var(--bright-white);
+  --ifm-color-emphasis-500: var(--bright-white);
+}
+
+html[data-theme='light'] {
+  /* tokyonight day */
+  --primary-bg: #fff;
+  --primary-fg: #414868;
+  /* normal */
+  --normal-black: #e9e9ed;
+  --normal-red: #f52a65;
+  --normal-green: #587539;
+  --normal-yellow: #8c6c3e;
+  --normal-blue: #2e7de9;
+  --normal-magenta: #9854f1;
+  --normal-cyan: #007197;
+  --normal-white: #6172b0;
+  /* bright */
+  --bright-black: #a1a6c5;
+  --bright-red: var(--normal-red);
+  --bright-green: var(--normal-green);
+  --bright-yellow: var(--normal-yellow);
+  --bright-blue: var(--normal-blue);
+  --bright-magenta: var(--normal-magenta);
+  --bright-cyan: var(--normal-cyan);
+  --bright-white: var(--primary-fg);
+
+  --ifm-font-color-base: var(--primary-fg);
+  --ifm-background-color: var(--primary-bg);
+  --ifm-color-primary: #9854f1;
+  --ifm-color-primary-dark: #8636ef;
+  --ifm-color-primary-darker: #7d27ed;
+  --ifm-color-primary-darkest: #6511d2;
+  --ifm-color-primary-light: #aa72f3;
+  --ifm-color-primary-lighter: #b381f5;
+  --ifm-color-primary-lightest: #ceaef8;
+  --ifm-navbar-background-color: var(--primary-bg);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="%23414868" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
+}
+
+html[data-theme='dark'] {
+  /* tokyonight night */
+  --primary-bg: #1a1b26;
+  --primary-fg: #c1caf4;
+  /* normal */
+  --normal-black: #15161e;
+  --normal-red: #f7768e;
+  --normal-green: #9ece6a;
+  --normal-yellow: #e0af68;
+  --normal-blue: #7aa2f7;
+  --normal-magenta: #bb9af7;
+  --normal-cyan: #7dcfff;
+  --normal-white: #a9b1d6;
+  /* bright */
+  --bright-black: #414868;
+  --bright-red: var(--normal-red);
+  --bright-green: var(--normal-green);
+  --bright-yellow: var(--normal-yellow);
+  --bright-blue: var(--normal-blue);
+  --bright-magenta: var(--normal-magenta);
+  --bright-cyan: var(--normal-cyan);
+  --bright-white: var(--primary-fg);
+
+  --ifm-font-color-base: var(--primary-fg);
+  --ifm-background-color: var(--primary-bg);
+  --ifm-background-surface-color: var(--primary-bg);
+  --ifm-color-primary: #bb9af7;
+  --ifm-color-primary-dark: #a275f4;
+  --ifm-color-primary-darker: #9562f3;
+  --ifm-color-primary-darkest: #702bee;
+  --ifm-color-primary-light: #d4bffa;
+  --ifm-color-primary-lighter: #e1d2fb;
+  --ifm-color-primary-lightest: #ffffff;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="%23c1caf4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
+}
+
+* {
+  transition: background-color 400ms ease-in-out, fill 400ms ease-in-out;
+}
+
+.concak {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  left: 0;
+}
