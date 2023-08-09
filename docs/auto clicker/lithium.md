@@ -2,12 +2,11 @@
 sidebar_position: 1
 ---
 
-# Liquidbonuce
+# Lithium
 
 ## Feature
-- free
-- no rat !!
-- good bypass
-## Download Here: [Main Site](https://liquidbounce.net/)
+- auto click
+- reach
+- ...
+## Download Here: [Lithium](https://firebasestorage.googleapis.com/v0/b/frendacute.appspot.com/o/Lithium%20Lite.zip?alt=media&token=51d68d46-67d0-47f1-9574-7bec5b844da6)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/THwKoGahZpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
