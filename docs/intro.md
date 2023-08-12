@@ -14,8 +14,12 @@ slug: /
 |  $$$$$$/| $$  | $$|  $$$$$$$|  $$$$$$$  |  $$$$/|  $$$$$$/| $$$$$$$$
  \______/ |__/  |__/ \_______/ \_______/   \___/   \______/ |________/
 ```
-                                                                      
-                                                                      
-                                                                      
 
+Website By **Necakco**
+Uploaded By **Necakco**
 
+Loader.exe __soon__
+- Crack = 🐀
+- fdpfork = 🐀
+- blatant = gay
+- ghost = lgbt
