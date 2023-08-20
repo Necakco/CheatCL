@@ -90,7 +90,7 @@ const config = {
             position: 'left',
             label: 'Client',
           },
-          {to: '/blog', label: 'Config', position: 'left'},
+          {to: '/blog', label: 'Config/Posts', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
