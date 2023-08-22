@@ -77,8 +77,20 @@ const config = {
         },
       }),
     ],
+    
   ],
-
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'game',
+        path: 'game',
+        routeBasePath: 'Game',
+        sidebarPath: require.resolve('./game.js'),
+        // ... other options
+      },
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -95,7 +107,14 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Client',
+            label: 'App',
+          },
+          {
+            label: 'game',
+            position: 'left',
+            items: [
+              {to: '/game', label: 'Minecraft'},
+            ]
           },
           {to: '/blog', label: 'Config/Posts', position: 'left'},
           {
