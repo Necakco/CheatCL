@@ -128,11 +128,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Youtube',
+            title: 'Link',
             items: [
               {
-                label: 'Client',
+                label: 'Youtube',
                 href: 'https://www.youtube.com/channel/UC51P2yIrqRGdun9MtvXNXaA',
+              },
+              {
+                label: 'Bio',
+                href: 'https://ayo.so/frenda',
               },
             ],
           },
