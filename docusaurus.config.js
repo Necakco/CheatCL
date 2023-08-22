@@ -63,8 +63,15 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-
+          
         },
+        // apps: {
+        //   sidebarPath: require.resolve('./appsidebars.js'),
+        //   routeBasePath: "/app",
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
