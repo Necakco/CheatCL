@@ -84,7 +84,7 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'game',
-        path: 'game',
+        path: 'minecraft',
         routeBasePath: 'minecraft',
         sidebarPath: require.resolve('./game.js'),
         // ... other options
@@ -94,7 +94,7 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'gameroblox',
-        path: 'game',
+        path: 'roblox',
         routeBasePath: 'roblox',
         sidebarPath: require.resolve('./game2.js'),
         // ... other options
@@ -104,7 +104,7 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'gameosu',
-        path: 'game',
+        path: 'osu',
         routeBasePath: 'osu',
         sidebarPath: require.resolve('./game3.js'),
         // ... other options
