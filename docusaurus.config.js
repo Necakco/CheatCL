@@ -85,8 +85,28 @@ const config = {
       {
         id: 'game',
         path: 'game',
-        routeBasePath: 'Game',
+        routeBasePath: 'minecraft',
         sidebarPath: require.resolve('./game.js'),
+        // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'gameroblox',
+        path: 'game',
+        routeBasePath: 'roblox',
+        sidebarPath: require.resolve('./game2.js'),
+        // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'gameosu',
+        path: 'game',
+        routeBasePath: 'osu',
+        sidebarPath: require.resolve('./game3.js'),
         // ... other options
       },
     ],
@@ -113,7 +133,9 @@ const config = {
             label: 'game',
             position: 'left',
             items: [
-              {to: '/game', label: 'Minecraft'},
+              {to: '/minecraft', label: 'Minecraft'},
+              {to: '/roblox', label: 'Roblox'},
+              {to: '/osu', label: 'osu'},
             ]
           },
           {to: '/blog', label: 'Config/Posts', position: 'left'},
