@@ -9,5 +9,5 @@ Virus/rat remover
 ![fuck](mrst.png)
 
 # Download
-[link]()
+
 
