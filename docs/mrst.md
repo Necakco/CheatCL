@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Virus/rat remover
 
-![fuck](mrst)
+![fuck](mrst.png)
 
 # Download
 [link]()
