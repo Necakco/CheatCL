@@ -8,5 +8,4 @@ sidebar_position: 1
 - free
 - good bypass
 
-## Download Here: [F](https://firebasestorage.googleapis.com/v0/b/frendacute.appspot.com/o/FDP%20Client%20Cleanver4.jar?alt=media&token=16e67cee-df3b-4ace-b749-9db0a9cdd055) (CleanVer)
-## Download Here: [Main Site](https://fdpinfo.github.io/next/) (Rat?)
+## Download Here: [DS](https://cdn.discordapp.com/attachments/1144090840675926016/1148034479596765244/DuckSense-Legacy_1.jar) (Clean?)
